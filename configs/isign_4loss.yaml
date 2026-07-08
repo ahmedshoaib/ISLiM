@@ -1,0 +1,16 @@
+# ISLiM 4-loss training on full iSign (PoseStitch fixed split, 90/5/5, seed=42)
+split: posestitch
+epochs: 200
+batch_size: 4
+grad_accum: 4
+lr: 1e-4
+dropout: 0.2
+label_smoothing: 0.1
+query_tokens: 16
+clip_weight: 1.0
+clip_ramp: 0.1
+sem_weight: 0.05
+sem_ramp: 0.005
+struct_weight: 0.01
+cool_down: 60
+t5_model: t5-small

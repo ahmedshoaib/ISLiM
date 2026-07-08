@@ -1,0 +1,14 @@
+# ISLiM cross-lingual transfer: English ISL encoder → German T5 decoder on Phoenix-2014-T
+split: phoenix
+epochs: 50
+batch_size: 4
+grad_accum: 4
+lr: 3e-4
+dropout: 0.2
+label_smoothing: 0.1
+query_tokens: 16
+clip_weight: 0.0
+sem_weight: 0.0
+struct_weight: 0.0
+cool_down: 60
+t5_model: t5-base  # German T5
