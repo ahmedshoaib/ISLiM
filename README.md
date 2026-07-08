@@ -122,13 +122,13 @@ anon_git/
   data/
     splits/              # PoseStitch CSV splits (not in repo)
   paper/
-    acl_template.tex     # LaTeX manuscript
   scripts/
     train.py             # Main training entry point
     run.sh               # Shell wrapper for training
     eval/                # Evaluation scripts
     mobile/              # TorchScript export utilities
     viz/                 # Visualization helpers
+    preprocess/          #generate keypoints
   src/
     islim/               # Core model architecture
     losses/              # Multi-loss implementations
