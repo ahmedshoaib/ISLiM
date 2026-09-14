@@ -1,0 +1,16 @@
+{
+  "total_samples": 126445,
+  "train": 113800,
+  "val": 6322,
+  "test": 6323,
+  "preprocessing": [
+    "lowercasing",
+    "contraction expansion",
+    "punctuation removal",
+    "number splitting",
+    "person name \u2192 person",
+    "low-freq \u2192 unknown"
+  ],
+  "seed": 42,
+  "split_ratios": "90/5/5"
+}
